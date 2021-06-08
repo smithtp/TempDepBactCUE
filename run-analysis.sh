@@ -3,6 +3,12 @@
 # and produce results figures
 # Tom Smith 2021
 
+echo "Setup folders"
+
+mkdir Results
+mkdir Results/CUE_response_figures
+mkdir Results/Figures
+mkdir Results/Schoolfield_fits 
 
 echo "Removing low quaility data"
 
