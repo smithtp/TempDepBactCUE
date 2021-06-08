@@ -7,6 +7,8 @@
 # and keep only the aerobic strains for CUE analyses
 #
 
+source("Code/packages.R")
+
 # read the raw data
 raw_data <- read.csv("Data/dataset_rates_taxonomy.csv")
 
