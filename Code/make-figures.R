@@ -6,6 +6,8 @@
 # Create all the plots for figs 2 and 3 in the manuscript
 #
 
+source("Code/packages.R")
+
 # read the necessary data/results files
 results_table <- read.csv("Results/CUE_directionality.csv")
 

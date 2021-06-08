@@ -6,8 +6,7 @@
 # Fit Sharpe-Schoolfield TPC model to filtered rate data
 #
 
-library(minpack.lm) # for NLLS
-library(ggplot2)
+source("Code/packages.R")
 
 # assign Boltzmann constant (units of eV * K^-1) as a global:
 assign("k", 8.617 * 10^-5, envir = .GlobalEnv)  

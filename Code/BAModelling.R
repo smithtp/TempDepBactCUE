@@ -6,8 +6,7 @@
 # Fit Boltzmann-Arrhenius model to OTR region of TPCs
 #
 
-library(minpack.lm) # for NLLS
-library(nls.multstart)
+source("Code/packages.R")
 
 # assign Boltzmann constant (units of eV * K^-1) as a global:
 assign("k", 8.617 * 10^-5, envir = .GlobalEnv)  

@@ -6,9 +6,7 @@
 # Determine directionality of CUE response based on bootstrapped fits
 #
 
-library("xtable")
-library(tidyr)
-library(dplyr)
+source("Code/packages.R")
 
 bootstrapped_fits <- read.csv("Results/bootstrap_results_BA.csv")
 
